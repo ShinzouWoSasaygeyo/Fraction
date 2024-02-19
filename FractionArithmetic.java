@@ -51,9 +51,8 @@ public class FractionArithmetic {
                         System.out.println("Result: ");
                     }
                     case 4 -> // sub
-                        // placeholder
-
-                            System.out.println("Result: s");
+                            Fraction result = fr1.subtract(fr2)
+                            System.out.println("Result: " + result.toString);
                     case 5 -> {
                         Fraction result = fr1.multiplyBy(fr2);
                         System.out.println("Result: " + result.toString());
